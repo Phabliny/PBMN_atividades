@@ -14,9 +14,9 @@ public class Categoria {
     @DBRef
     private List<Curso> cursos;
 
-    public Categoria(String id, String nomeCategoria, List<Curso> cursos) {
+    public Categoria(String id, String nome, List<Curso> cursos) {
         this.id = id;
-        this.nomeCategoria = nomeCategoria;
+        this.nome = nome;
         this.cursos = cursos;
     }
 
@@ -28,12 +28,12 @@ public class Categoria {
         this.id = id;
     }
 
-    public String getNomeCategoria() {
-        return nomeCategoria;
+    public String getNome() {
+        return nome;
     }
 
-    public void setNomeCategoria(String nomeCategoria) {
-        this.nomeCategoria = nomeCategoria;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public List<Curso> getCursos() {
