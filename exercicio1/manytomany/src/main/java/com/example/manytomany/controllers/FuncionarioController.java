@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/projeto")
+@RequestMapping("/funcionario")
 public class FuncionarioController {
     @Autowired
     private FuncionarioRepository repoFun;

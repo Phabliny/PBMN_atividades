@@ -1,4 +1,4 @@
-package com.example.logsystem.utils;
+package com.example.logSystem.utils;
 
 public enum Action {
     ADD, UPDATE, REMOVE;

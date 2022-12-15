@@ -1,4 +1,4 @@
-package com.example.logSystem.config;
+package com.example.purchaseOrder.config;
 
 import org.springframework.amqp.core.Exchange;
 import org.springframework.amqp.core.ExchangeBuilder;
@@ -10,7 +10,8 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class MessageConfig {
-    @Value("${logSystem.rabbitmq.exchange}")
+    //Endereço do exchange no RabbitMQ
+    @Value("${purchaseOrder.rabbitmq.exchange}")
     String exchange;
 
     @Bean
